@@ -1,0 +1,9 @@
+Enunciado 5 :
+Utiliza el selector de clase y de ID correctamente
+para darle estilos a articulos y títulos.
+de un blog de prueba.
+
+-Título principal: Blog de programación, fondo oscuro, letra de 34px,
+                   margen interior de la mitad del tamaño de letra.
+-Artículos : Borde fino, margen ineterior de 10px y margen por arriba de 30px
+-Títulos: Letra en negrita, texto centrado, subrayado y con tamaño de letra 20px                   
