@@ -16,4 +16,4 @@
 
 
 ¡Ni un día sin código!
-convirtiendo desafíos en código inovadorgit 
+convirtiendo desafíos en código inovador
