@@ -95,9 +95,7 @@ body{
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
 }
-.price__detail:ntn-child(4){
-    border: none;
-}
+
 .price__btn{
     width: 100%;
     margin-top: 3rem;
