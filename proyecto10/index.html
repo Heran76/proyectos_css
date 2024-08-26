@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto10-buscadorHoteles</title>
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@1,800&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <div class="layout">
+        <h1 class="layout__title">
+            Busca tu hotel
+        </h1>
+
+        <form class="layout__search">
+                <input type="search" class="search__input" placeholder="Busca tu hotel y lo encontraremos"/>
+                <button class="search__btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+        </form>
+
+        <main class="layout__results">
+
+            <article class="results__result">
+                 <p class="result__subtitle">Nombre:</p>
+                 <h3 class="result__title">Hotel*Huesa</h3>
+            </article>
+
+            <article class="results__result">
+                <p class="result__subtitle">Ubicación:</p>
+                <h3 class="result__title">Huesa-Jaén</h3>
+           </article>
+
+           <article class="results__result">
+            <p class="result__subtitle">Fecha:</p>
+            <h3 class="result__title">26/08/2024</h3>
+           </article>
+            
+        </main>
+        <section class="layout__map">
+            <iframe class="map__frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.074948784045!2d-3.078565369480246!3d37.764840774371564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6fb2a1c3df1a29%3A0xd306cc26dd8d6b20!2sHotel%20Restaurante%20Sierra%20De%20Huesa!5e0!3m2!1ses!2ses!4v1724691615294!5m2!1ses!2ses" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+</body>
+</html>
